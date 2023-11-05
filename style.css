@@ -1,0 +1,151 @@
+* {
+    margin:0;
+    padding:0;
+}
+html, body{
+    width:100%
+}
+
+
+div {
+    display:block;
+    margin: 0 auto;
+    text-align:center;
+}
+/* profile */
+#profile {
+    width:50%;
+    margin-top:3%;   
+}
+.icon img {
+    width:80px;
+    vertical-align: middle;
+}
+.icon h1 {
+    vertical-align: middle;
+    font-size:800%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    margin:30px 0 0 0;  
+}
+.icon {
+    margin-top:5%;
+}
+.mem_name {
+    font-weight:800;
+    margin-top:10px;
+}
+.mem_name * { 
+    display: inline;
+    margin-left: 10px;
+}
+.mem_name .mem1 {
+    margin-left: 0;
+}
+
+
+/* album */
+h3 {
+    font-size:300%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:700;
+    letter-spacing: -0.1em;
+    margin:0;
+}
+
+#album_wrap {
+    margin:10% 0 0 0; padding:0; 
+}
+#wrap {
+    width:80%;   
+    margin:3% auto 0 auto;
+    overflow:hidden;
+}
+.album_img {
+    width:30%;   
+    float:left;
+    padding-left:1%;
+    padding-top:1%;
+}
+#wrap .album_img:nth-child(3n+1) {
+    margin-left:3.5%;
+}
+#wrap .album_img:last-child {
+    margin:16% 0 15% 0;
+}
+
+/* MD NOTICE */
+#MD_wrap {
+    margin:10% auto 0 auto;
+    width:100%;
+
+
+}
+.wrap2 {
+    margin:0 auto;
+}
+
+h4 {
+    font-size:130%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.MD_intro {
+    margin-top: 20px;
+    line-height: 1.3em;
+    font-size:80%;
+}
+
+.MD_intro span{
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+li {
+    list-style-position: inside;
+    list-style-type: square;
+    font-size:11px;
+    font-weight: bold;
+    line-height:1.5em;
+    
+}
+
+#MD_list {
+    border:1px black;
+    border-style:dashed;
+    width:35%;
+    margin:60px auto 0 auto;
+    overflow: hidden;
+    padding:13px;
+    
+   
+}
+
+.MD_list1 {
+    width:50%;
+    float:left;
+    text-align:left;
+
+}
+.MD_list2{
+    width:50%;
+    float:left;
+    text-align:left;
+
+}
+
+
+
+/* video */
+#video_wrap {
+    margin:10% auto;
+    
+}
+.video {
+    margin:60px 0 0 0;
+
+}
+
